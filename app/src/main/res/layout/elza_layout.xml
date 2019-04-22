@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disney_Activity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/elza"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elza"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elsa, a futura rainha de Arendelle, nasceu com a capacidade mágica de criar gelo e neve, embora tenha escondido isso de todos, incluindo a sua irmã mais nova, Anna. Após seus poderes, acidentalmente, condenarem o reino a um inverno eterno, ela foge e auto-exila-se num castelo de gelo. Agora cabe a Anna e Kristoff, um destemido homem da montanha, partirem numa jornada para trazerem Elsa de volta a Arendelle e reverterem o inverno em verão."
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

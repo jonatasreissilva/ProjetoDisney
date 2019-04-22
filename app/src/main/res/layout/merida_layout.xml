@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disney_Activity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/merida"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merida"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Princesa Mérida é a filha de 16 anos da Rainha Elinor e do Rei Fergus, os governantes de um reino medieval nas Terras Altas escocesas. As expectativas da Rainha Elinor sobre sua filha são de educa-la a fim de tornar-se uma dama, assim como ela própria, mas Merida é dona de uma personalidade tão rebelde quanto seus cabelos e prefere praticar arquearia e hipismo à costurar e fazer discursos."
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

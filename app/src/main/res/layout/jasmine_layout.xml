@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disney_Activity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/jasmine"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jasmine"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jasmine é a filha do Sultão de Agrabah, e, portanto, é uma princesa. A mãe de Jasmine é raramente mencionada, e ela provavelmente faleceu. No primeiro filme, Jasmine ficou frustada com as funções de ser uma princesa, e anseia por uma vida fora do palácio. Isso se choca com o fato de que, de acordo com a lei, ela deve se casar com um homem de respeito antes de seu aniversário de 18 anos. "
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

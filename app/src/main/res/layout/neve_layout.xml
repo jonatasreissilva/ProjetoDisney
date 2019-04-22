@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disney_Activity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/neve"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branca De Neve"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ela é uma jovem princesa, a mais bela de todas, em sua inocência, não pode ver qualquer um dos males do mundo. Isso a torna mais vulnerável a madrasta ciumenta que deseja ser a mais bela na terra, no entanto, a bondade inerente da Branca de Neve e pureza inspiram seus amigos, os animais da floresta e os Sete Anões para protegê-la."
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

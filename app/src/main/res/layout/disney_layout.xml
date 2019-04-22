@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disney_Activity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cinderela"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cinderela"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A história acompanha a jovem Ella, cujo pai comerciante se casa novamente depois de ficar viúvo de sua mãe. Ansiosa para apoiá-lo, ela recebe bem a madrasta e suas filhas, Anastasia e Drisella na nova casa. No entanto, quando seu pai morre subitamente, ela se vê à mercê de uma família cruel e invejosa. Trabalhando como empregada e agora chamada de Cinderela, ela começa a perder a esperança, mas uma fada madrinha provoca uma mudança em seu destino."
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>
